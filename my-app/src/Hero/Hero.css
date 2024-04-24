@@ -1,0 +1,57 @@
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #4facfe;
+    color: white;
+    height: 100vh;
+    width: 100%;
+    flex-wrap: wrap;
+    .right__card{
+        min-height: 382px;
+        max-width: 546px;
+      img{
+      height: 100%;
+      width: 100%;
+        border-radius: 10px;
+      }
+       
+    }
+    .left__card{
+        h1{
+            min-height: 120px;
+            max-width: 400px;
+            font-size: 50px;
+            margin: 0 0 16px;
+            font-weight: 700;
+            line-height: 1.3;
+        }
+        p{
+            min-height: 63px;
+            max-width: 300px;
+            line-height: 1;
+            margin: 0 45px 16px;
+        }
+        .buttons{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+           .contact{
+            margin-right: 24px;
+            padding: 10px 30px;
+            background-color: #0099E5;
+            border-radius: 30px;
+           }
+           .watch__video{
+            text-transform: capitalize;
+           }
+        }
+    }
+}
+ @media only screen and (max-width:768px) {
+    .hero{
+        height: 987px;
+    }
+
+  } 
